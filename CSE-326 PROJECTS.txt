@@ -1,0 +1,566 @@
+PROJECT-1
+
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  <h1 id="title">Survey Form</h1>
+  <p id="description">This is a Student's Project </p>
+  </head>
+  <form id="survey-form">
+    <label for="name" id="name-label">
+      Enter your Name: 
+      <input id="name" type="text" placeholder="Enter your name" required>
+      </label>
+<br>
+    <label for="email" id="email-label">
+      Enter your Email: 
+      <input id="email" type="email" placeholder="Enter your email" required>
+      </label>
+<br>
+    <label for="number" id="number-label">
+      Enter your Number: 
+      <input id="number" type="number" placeholder="Enter a number" min="5" max="10" required>
+      </label>
+      <label for="dropdown">Select an option:</label>
+      <select id="dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+
+        <label>Choose an option: </label>
+        <input type="radio" name="radio-group" value="radio1">Radio1
+         <input type="radio" name="radio-group" value="radio2"> Radio 2
+
+          <label>Choose multiple options:</label>
+    <input type="checkbox" name="checkbox-group" value="checkbox1"> Checkbox 1
+    <input type="checkbox" name="checkbox-group" value="checkbox2"> Checkbox 2
+
+       <label>
+         <label for="comments">Additional Comments:</label>
+    <textarea id="comments" rows="4" cols="50" placeholder="Enter your comments"></textarea>
+    
+         <input id="textarea" placeholder="Comment your Feedback" min="10" max="69 rows="4" cols="50">
+         </label>
+       <label>
+         <button id="submit" type="submit">Submit</button>
+         </label>
+  </form>
+</html>
+
+PROJECT-2
+
+HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tribute Page</title>
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Dr. Norman Borlaug</h1>
+        <div id="img-div">
+            <img id="image" src="norman-borlaug.jpg" alt="Dr. Norman Borlaug">
+            <div id="img-caption">Dr. Norman Borlaug</div>
+        </div>
+        <div id="tribute-info">
+            <p>
+                Dr. Norman Borlaug was an American agronomist and humanitarian who led initiatives to combat world hunger.
+            </p>
+        </div>
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Learn more</a>
+    </main>
+</body>
+</html>
+
+CSS:
+/* Reset some default styles */
+body, figure, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the content */
+#main {
+    text-align: center;
+}
+
+/* Title Styles */
+#title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Image Styles */
+#img-div {
+    margin-top: 20px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Tribute Info Styles */
+#tribute-info {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Tribute Link Styles */
+#tribute-link {
+    display: block;
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007acc; /* Link color */
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
+
+PROJECT-3
+
+HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <header>Technical Documentation</header>
+        <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+        <a class="nav-link" href="#HTML">HTML</a>
+        <a class="nav-link" href="#CSS">CSS</a>
+        <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+        <a class="nav-link" href="#Media_Queries">Media Queries</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-doc">
+        <section class="main-section" id="JavaScript_and_Java">
+            <header>JavaScript and Java</header>
+            <p>Content about JavaScript and Java goes here.</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <li></li>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+        </section>
+        
+        <section class="main-section" id="HTML">
+            <header>HTML</header>
+            <p>Content about HTML goes here.</p>
+            <li></li>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+        </section>
+
+        <section class="main-section" id="CSS">
+            <header>CSS</header>
+            <p>Content about CSS goes here.</p>
+        <li></li>
+        <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+        </section>
+        
+        <section class="main-section" id="Responsive_Design">
+            <header>Responsive Design</header>
+            <p>Content about responsive design goes here.</p>
+            <li></li>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+        </section>
+        <section class="main-section" id="Media_Queries">
+            <header>Media Queries</header>
+            <p>Content about media queries goes here.</p>
+            <li></li>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+        </section>
+        <!-- Add more sections as needed -->
+    </main>
+</body>
+</html>
+
+CSS:
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+#navbar {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+#navbar header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+#main-doc {
+    margin-left: 270px; /* To leave space for the navbar */
+    padding: 20px;
+}
+
+.main-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.main-section header {
+    font-size: 24px;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    #navbar {
+        display: none; /* Hide the navbar on small screens */
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
+}
+
+PROJECT-4:
+
+HTML: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <img id="header-img" src="your-logo.png" alt="Company Logo">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Video Section -->
+    <video id="video" src="https://www.youtube.com/embed/your-video-id" >
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+    </video>
+
+    <!-- Form Section -->
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h2>Get Started</h2>
+        <form id="email-form" action="https://www.freecodecamp.com/email-submit" method="post">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </form>
+
+    <!-- Content Sections (Features, Pricing, Contact, etc.) -->
+    <section id="features">
+        <!-- Add content for Features section -->
+    </section>
+
+    <section id="pricing">
+        <!-- Add content for Pricing section -->
+    </section>
+
+    <section id="contact">
+        <!-- Add content for Contact section -->
+    </section>
+</body>
+</html>
+
+CSS:
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#header-img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    z-index: 100; 
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+/* Video Styles */
+#video {
+    text-align: center;
+}
+
+/* Form Styles */
+#form {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#email-form {
+    margin: 20px;
+}
+
+#email {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#submit {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #005fa3;
+}
+
+/* Content Sections Styles (Features, Pricing, Contact, etc.) */
+/* Add your styles for these sections as needed */
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    #nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin: 10px 0;
+    }
+}
+
+PROJECT-5
+
+HTML: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <ul>
+            <li><a class="nav-link" href="#welcome-section">Home</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#profile-link">Profile</a></li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section id="welcome-section">
+        <h1>Welcome to My Portfolio</h1>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="project-tile">
+            <h2>Project Title</h2>
+            <p>Project description goes here.</p>
+            <a href="#">View Project</a>
+        </div>
+        <!-- Add more project tiles as needed -->
+    </section>
+
+    <!-- Profile Link -->
+    <a id="profile-link" href="https://github.com/yourusername" target="_blank">Visit My Profile</a>
+</body>
+</html>
+
+CSS:
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+#navbar {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+/* Welcome Section Styles */
+#welcome-section {
+    background-image: url("your-background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+/* Projects Section Styles */
+#projects {
+    text-align: center;
+    padding: 20px;
+}
+
+.project-tile {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-tile h2 {
+    font-size: 24px;
+}
+
+/* Profile Link Styles */
+#profile-link {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #007acc; /* Link color */
+}
+
+#profile-link:hover {
+    text-decoration: underline;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin: 10px 0;
+    }
+}
